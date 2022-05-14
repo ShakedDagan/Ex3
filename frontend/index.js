@@ -8,17 +8,16 @@ const getJSON = async url => {
     return data; // returns a promise, which resolves to this data value
 }
 function createSite(url,site) {
-    const formData = new FormData();
-    formData.append('name', site.name);
-    formData.append('state', site.state);
-    formData.append('town', site.town);
-    formData.append('year', site.year);
-    formData.append('data1', site.data1);
-    formData.append('data2', site.data2);
-    formData.append('img1', site.img1);
-    formData.append('img2', site.img2);
-    formData.append('img3', site.img3);
-
+    // const formData = new FormData();
+    // formData.append('name', site.name);
+    // formData.append('state', site.state);
+    // formData.append('town', site.town);
+    // formData.append('year', site.year);
+    // formData.append('data1', site.data1);
+    // formData.append('data2', site.data2);
+    // formData.append('img1', site.img1);
+    // formData.append('img2', site.img2);
+    // formData.append('img3', site.img3);
     return fetch(url, {
         method: 'POST',
         body: formData

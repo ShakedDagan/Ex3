@@ -1,8 +1,8 @@
 <html>
     <title>Add Site</title>
     <body>
-        <form id="formId">
-            <h1>Add Site</h1>
+        <h1>Add Site</h1>
+        <form action="http://localhost:3000/sites" enctype="multipart/form-data" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="state">State:</label>
@@ -23,6 +23,7 @@
             <input type="file" id="img3" name="img3"><br><br>
             <input type="submit" value="Submit">
         </form>
-        <script src="action.js"></script>
     </body>
 </html>
+
+<!-- <script src="action.js"></script> -->
