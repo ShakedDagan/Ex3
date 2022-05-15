@@ -1,4 +1,4 @@
-# Lior Mitrany & Shacked Dagan
+# Lior Mitrany & Shaked Dagan
 
 # Know bugs:
 
