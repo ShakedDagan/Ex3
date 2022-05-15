@@ -1,0 +1,173 @@
+body {
+  background-color: rgba(161, 244, 247);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 4px 4px 8px #003cff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  text-shadow: 4px 4px 8px #003cff;
+}
+
+.img_sites {
+  margin: 20px 40px;
+  height: 200px;
+  width: 300px;
+}
+
+.placeLink {
+  color: white;
+  text-decoration: none;
+}
+
+.placeLink:hover {
+  color: #00bfff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #b7c576;
+  color: black;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  border: 2px solid #b7c576;
+}
+
+table {
+  border: 5px solid #b7c576;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 100%;
+  text-shadow: 2px 2px 4px #003cff;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+th {
+  border: 3px solid #b7c576;
+  padding: 16px;
+  vertical-align: top;
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  border: 3px solid #b7c576;
+  padding: 16px;
+  vertical-align: top;
+  font-size: 18px;
+  text-align: center;
+}
+
+.indexButton,
+.likeButton,
+.deleteButton,
+.previousPageButton,
+.nextPageButton {
+  background-color: teal;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 14px;
+  padding: 10px 16px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.indexButton:hover {
+  background-color: white;
+  color: teal;
+  border: 2px solid teal;
+}
+
+.likeButton,
+.deleteButton,
+.nextPageButton {
+  float: right;
+}
+
+.previousPageButton {
+  float: left;
+}
+
+.likeButton,
+.previousPageButton,
+.nextPageButton {
+  background-color: #b7c576;
+  color: white;
+  border: 2px solid white;
+}
+
+.likeButton:hover,
+.previousPageButton:hover,
+.nextPageButton:hover {
+  background-color: white;
+  color: #b7c576;
+  border: 2px solid #b7c576;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+
+.deleteButton:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+
+label.error.fail-alert {
+  border: 2px solid red;
+  border-radius: 4px;
+  line-height: 1;
+  margin-top: 5px;
+  padding: 3px;
+  background: #e23552;
+  font-size: 16px;
+  color: black;
+  text-shadow: none;
+}
