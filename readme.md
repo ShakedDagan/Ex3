@@ -10,7 +10,7 @@
 
 - In the backend folder add .env file.
 - add to the .env fie:\
-  MONGO_URL=_path to mongo db_
+  MONGO_URL=_path to mongo db_\
   PORT=3000
 
 - Go to the cmd and go to the backend path.
